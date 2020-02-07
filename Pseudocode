@@ -1,3 +1,22 @@
+# programs used:
+
+mash
+
+sratoolkit (only for getting example files)
+
+wget
+
+parallel
+
+edirect
+
+kraken2
+
+# perhaps add a method of visualisation? Recentrifuge?
+>= python3.6
+recentrifuge (pandas openpyxl xlrd matplotlib)
+
+
 # Mick's thoughts from https://twitter.com/BioMickWatson/status/1224983069490339840
 #1) upload metagenomics reads to NCBI
 
@@ -50,3 +69,8 @@ kraken2-build --build --threads 8 --db ../dumplinglib
 kraken2 --db dumplinglib ERR024951.fastq --threads 8 > mashtest.kraken.out
 # ran on 8 cpu 32 gb machine
 # took approximately 4 minutes
+
+retaxdump
+
+rcf -n ./taxdump -k mashtest.kraken.out -s KRAKEN
+
