@@ -9,16 +9,27 @@ Currently just playing around with ideas
 # programs used:
 
 mash
+
 sratoolkit (only for getting example files)
+
 wget
+
 parallel
+
 edirect
+
 kraken2
+
 python3
+
 recentrifuge
+
 pandas
+
 openpyxl
+
 xlrd
+
 matplotlib
 
 ### Mick's thoughts from https://twitter.com/BioMickWatson/status/1224983069490339840
